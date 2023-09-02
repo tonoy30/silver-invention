@@ -1,0 +1,26 @@
+---
+// Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
+import ContactCTA from '../components/ContactCTA.astro'
+import Grid from '../components/Grid.astro'
+import Hero from '../components/Hero.astro'
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+
+<BaseLayout
+  title="Blogs | Tonoy Akanda"
+  description="Learn about Tonoy Akanda's most recent projects"
+>
+  <div class="stack gap-20">
+    <main class="wrapper stack gap-8">
+      <Hero
+        title="Blogs"
+        tagline="See my most recent wriiting below to get an idea of my recent experience."
+        align="start"
+      />
+      <Grid variant="offset">
+        <p>Comming soon...</p>
+      </Grid>
+    </main>
+    <ContactCTA />
+  </div>
+</BaseLayout>

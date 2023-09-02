@@ -1,5 +1,4 @@
 {
-    "cSpell.words": [
-        "astro"
-    ]
+	"cSpell.words": ["astro"],
+	"workbench.editor.navigationScope": "default"
 }
